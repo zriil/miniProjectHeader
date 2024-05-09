@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+}
+.container{
+    margin: 3px;
+    display: flex;
+    width: auto;
+    height: auto;
+    background: rgb(9,144,176);
+    background: linear-gradient(90deg, rgba(9,144,176,1) 0%, rgba(9,75,121,1) 50%, rgba(159,17,209,1) 100%);
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.imgProfile{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+}
+.namaProfile{
+    margin: 5px;
+    color: aliceblue;
+    align-items: center;
+    line-height: 25px;
+}
+.doblebutton{
+    display: flex;
+    justify-content: center;
+}
+.tombol{
+    padding: 5px;
+    border: none;
+}
